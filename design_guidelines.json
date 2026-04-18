@@ -1,0 +1,146 @@
+{
+  "theme": "light",
+  "archetype": "Organic & Earthy",
+  "typography": {
+    "headings": {
+      "font_family": "Cormorant Garamond, serif",
+      "weights": ["400", "600", "700"],
+      "usage": "H1, H2, H3. MUST use tracking-tight for H1/H2."
+    },
+    "body": {
+      "font_family": "Manrope, sans-serif",
+      "weights": ["400", "500", "600"],
+      "usage": "Paragraphs, labels, buttons."
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tighter leading-none text-[#2A2A2A] md:text-white",
+      "h2": "text-4xl md:text-5xl font-semibold tracking-tight leading-none text-[#2A2A2A]",
+      "h3": "text-2xl md:text-3xl font-medium tracking-tight text-[#2A2A2A]",
+      "body": "text-lg leading-relaxed text-[#4A4A4A]",
+      "small": "text-sm uppercase tracking-[0.2em] font-semibold text-[#8B5E34]"
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#F8F5F0",
+      "secondary": "#EAE3D9",
+      "dark_overlay": "rgba(0,0,0,0.5)"
+    },
+    "text": {
+      "primary": "#2A2A2A",
+      "secondary": "#4A4A4A",
+      "light": "#FFFFFF"
+    },
+    "brand": {
+      "primary": "#A94438",
+      "primary_hover": "#8C362A",
+      "accent_green": "#4C5F45",
+      "accent_wood": "#8B5E34"
+    }
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous Spacing Philosophy. Use p-8, p-12, p-16 for breathing room. High negative space.",
+    "grid_system": "Bento Grid Protocol (Mode A: The 'Tetris' Grid for Gallery and About). Asymmetry is preferred.",
+    "container_padding": "px-6 md:px-12 lg:px-24 py-16 md:py-24",
+    "image_constraints": "Mobile images MUST NOT exceed 80vh."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#A94438] text-white px-8 py-4 rounded-none hover:bg-[#8C362A] transition-colors duration-300 font-medium",
+      "secondary": "border border-[#A94438] text-[#A94438] px-8 py-4 rounded-none hover:bg-[#A94438] hover:text-white transition-colors duration-300 font-medium"
+    },
+    "cards": {
+      "style": "Go cardless. Use flat rectangular layouts, 1px subtle borders (border-[#EAE3D9]) if necessary, no heavy drop shadows. Prefer solid earthy backgrounds over glassmorphism for content areas."
+    },
+    "navigation": {
+      "style": "Solid background bg-[#F8F5F0] with subtle border-b border-[#EAE3D9]. Must not be transparent over hero. Links: text-[#2A2A2A] hover:text-[#A94438]."
+    },
+    "marquee": {
+      "style": "The 'Editorial Ribbon' for Testimonials. bg-[#EAE3D9] text-[#2A2A2A] font-serif text-2xl py-8 gap-32."
+    }
+  },
+  "media": {
+    "hero": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/2ca94d15-7db3-42a6-806d-66b720c1764b/images/1e379bf0afb8fb256ff7a521daf41e4825e6870deeac3c28f303fd179bd9ab95.png",
+      "alt": "Steaming bowl of Thukpa and Momos",
+      "usage": "Full width hero background with bg-black/50 overlay. Text left-aligned."
+    },
+    "texture": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/2ca94d15-7db3-42a6-806d-66b720c1764b/images/2ccd9a1f54bd882f10a4e60ca2bd7e15a06942147840e28d1607aa704e03d1f3.png",
+      "usage": "Subtle repeating background texture for sections like 'What Makes Us Special' or 'Menu Highlights'. mix-blend-multiply opacity-50."
+    },
+    "gallery": [
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/2ca94d15-7db3-42a6-806d-66b720c1764b/images/587cad32b111d210a566de329b2dfcadf3f2811349767364b2030c3ec374a6c0.png",
+        "alt": "Rustic Restaurant Interior"
+      },
+      {
+        "url": "https://static.prod-images.emergentagent.com/jobs/2ca94d15-7db3-42a6-806d-66b720c1764b/images/8b778d4b796059d2e18fb692fcc4b7a0916b9cdb5c82b08e4615dd0da907b128.png",
+        "alt": "Chef preparing momos in kitchen"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1646850148817-c3a5e8a35fd9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwzfHx0aHVrcGElMjBub29kbGUlMjBzb3VwfGVufDB8fHx8MTc3NjUyNTQ1Mnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Thukpa Noodle Soup"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1772981277358-2d2587bdfd8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwyfHxtb21vcyUyMGR1bXBsaW5nJTIwZm9vZHxlbnwwfHx8fDE3NzY1MjU0NTJ8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Uncooked Momos Dumplings"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1694850184798-320a8e10bb5e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHxtb21vcyUyMGR1bXBsaW5nJTIwZm9vZHxlbnwwfHx8fDE3NzY1MjU0NTJ8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Plated Northeast Indian Food"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1651457157077-5ae9136d2cf2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHw0fHx0aHVrcGElMjBub29kbGUlMjBzb3VwfGVufDB8fHx8MTc3NjUyNTQ1Mnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Fork over soup bowl"
+      }
+    ],
+    "logos": {
+      "swiggy": "https://images.unsplash.com/photo-1774978236617-01a88685e420?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwxfHxzd2lnZ3klMjBsb2dvfGVufDB8fHx8MTc3NjUyNTQ3MHww&ixlib=rb-4.1.0&q=85",
+      "zomato": "https://images.unsplash.com/photo-1653389527532-884074ac1c65?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwxfHx6b21hdG8lMjBsb2dvfGVufDB8fHx8MTc3NjUyNTQ3MHww&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "sections": {
+    "header": {
+      "description": "Navigation bar featuring 'MAVEN KITCHEN' and Kannada subtitle 'ಮೇವನ್ ಕಿಚನ್'. Nav links left-aligned or space-between. Solid background."
+    },
+    "hero": {
+      "description": "Bold headline 'Flavors of the Northeast, Right Here in Bengaluru'. Badges for 4.6★. CTAs: 'Order Now' and 'View Menu'. Full background image (hero_food) with gradient/overlay to ensure text contrast."
+    },
+    "about": {
+      "description": "Asymmetrical layout. Large text block explaining the authentic flavors from Nagaland, Manipur, Mizoram. Overlapping image of restaurant_interior."
+    },
+    "menu_highlights": {
+      "description": "5 categories: Momos, Thukpa & Soups, Starters, Main Course, Beverages. INR pricing. Text-heavy, elegant layout. Use flex row with dotted borders between item name and price for a classic menu feel."
+    },
+    "features": {
+      "description": "What Makes Us Special. 3-4 blocks using Phosphor icons. Clean, cardless approach. Generous padding."
+    },
+    "gallery": {
+      "description": "Bento Grid Mode A ('Tetris' layout). 6 images spanning different columns and rows to create an organic, artistic collage."
+    },
+    "testimonials": {
+      "description": "Use react-fast-marquee. 'Editorial Ribbon' style with large serif font and wide gaps between reviews."
+    },
+    "contact": {
+      "description": "Footer area. Phone (clickable), Address with Google Maps link, Hours. Zomato and Swiggy placeholders using the provided logo URLs."
+    }
+  },
+  "technical_requirements": {
+    "libraries_to_install": [
+      "yarn add @phosphor-icons/react",
+      "yarn add react-fast-marquee",
+      "yarn add framer-motion",
+      "yarn add @studio-freight/lenis"
+    ],
+    "testing": "All interactive and key informational elements MUST include a data-testid attribute in kebab-case format (e.g., data-testid='hero-order-button').",
+    "accessibility": "Ensure 4.5:1 contrast for text over images using text-shadow or overlays. Include focus states for buttons."
+  },
+  "instructions_to_main_agent": [
+    "Use custom HTML/Tailwind over Shadcn components for marketing layouts to ensure creative freedom.",
+    "Do not center-align the main hero text; left-align it for tension and narrative flow.",
+    "Use pure CSS dots or flexbox space-between for the menu pricing layout.",
+    "Use the exact media URLs provided in this file. NEVER use placeholder image services.",
+    "Create the specific design blocks (like the Tetris Gallery) manually using Tailwind Grid utilities (grid-cols-1 md:grid-cols-12)."
+  ]
+}
