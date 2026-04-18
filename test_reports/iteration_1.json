@@ -1,0 +1,42 @@
+{
+  "summary": "Frontend-only Maven Kitchen restaurant website tested. All major features work correctly. Site loads without console errors, all sections render properly.",
+  "backend_issues": {
+    "critical": [],
+    "minor": []
+  },
+  "frontend_issues": {
+    "ui_bugs": [
+      {
+        "component": "MobileNav",
+        "issue": "data-testid='mobile-nav' not found via Playwright selector, though the drawer IS visually open (confirmed via screenshot). Either the testid is on an inner element or the nav animates in a way that hides it from is_visible check. Functional behavior works.",
+        "selector": "[data-testid='mobile-nav']",
+        "priority": "LOW"
+      }
+    ],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": ["/app/test_reports/iteration_1.json"],
+  "action_items": [
+    "Optional: verify data-testid='mobile-nav' is on the visible drawer element, not a hidden wrapper — currently screenshot confirms nav opens but Playwright is_visible returns false"
+  ],
+  "critical_code_review_comments": [],
+  "updated_files": [],
+  "success_rate": {"backend": "N/A (no backend)", "frontend": "95%"},
+  "seed_data_creation": "",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Pure static frontend site. All core tests pass: hero headline, rating badge (4.6★ · 1,200+), order button tel link, menu 5 tabs with ₹ prices, 6 gallery images with valid URLs, testimonials (Aarav Menon visible), contact address/tel/maps iframe all correct, mobile toggle opens nav drawer visually. Only minor: mobile-nav testid selector returned is_visible=False despite drawer being open in screenshot.",
+  "passed_checks": [
+    "Site loads at base URL without console errors",
+    "Hero headline: 'Flavors of the Northeast, right here in Bengaluru.'",
+    "Hero rating badge: 4.6★ · 1,200+ reviews",
+    "Order button href=tel:+918310360483",
+    "View Menu button href=#menu",
+    "Menu tabs: all 5 tabs (Momos, Thukpa & Soups, Starters, Main Course, Beverages) switch content with ₹ prices",
+    "Gallery: 6 images with valid URLs (2 static.prod-images, 4 unsplash)",
+    "Testimonial: Aarav Menon visible in marquee",
+    "Contact: address visible, directions href opens Google Maps URL, 7 tel:+918310360483 links, Google Maps iframe present",
+    "Mobile menu toggle exists and opens nav drawer (visually confirmed)"
+  ]
+}
