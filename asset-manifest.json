@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/maven-kitchen-website/static/css/main.49908ac4.css",
+    "main.js": "/maven-kitchen-website/static/js/main.31ce8bd5.js",
+    "index.html": "/maven-kitchen-website/index.html",
+    "main.49908ac4.css.map": "/maven-kitchen-website/static/css/main.49908ac4.css.map",
+    "main.31ce8bd5.js.map": "/maven-kitchen-website/static/js/main.31ce8bd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49908ac4.css",
+    "static/js/main.31ce8bd5.js"
+  ]
+}
